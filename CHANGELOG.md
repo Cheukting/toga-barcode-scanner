@@ -9,9 +9,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.0] - 2026-11-10
 
+### Changed
+- Bumped minimum Python version from 3.9 to 3.13. Updated `pyproject.toml` classifiers, `README.md` badge, and CI workflow matrix to target Python 3.13.
+
 ### Added
 - Integration testing suite in `tests/test_integration.py` modeling SodaTry retail catalog discovery and tasting inventory scans.
-- GitHub Actions CI workflow in `.github/workflows/ci.yml` matrix testing Python 3.9 through 3.12 across Linux and macOS runners.
+- GitHub Actions CI workflow in `.github/workflows/ci.yml` matrix testing Python 3.13 across Linux and macOS runners.
 - Briefcase packaging configuration templates in `README.md` for iOS permissions and Android CameraX / ML Kit Gradle dependencies.
 - Native Android capture backend (`android.py`) using CameraX (`androidx.camera`) and Google ML Kit Barcode Scanning (`com.google.mlkit:barcode-scanning`).
 - Background `ImageAnalysis.Analyzer` frame processor streaming decoded barcode symbologies to Python callbacks without blocking the UI thread.
