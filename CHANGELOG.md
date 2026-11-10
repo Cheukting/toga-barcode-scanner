@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Bumped minimum Python version from 3.9 to 3.13. Updated `pyproject.toml` classifiers, `README.md` badge, and CI workflow matrix to target Python 3.13.
+- Consolidated all feature branches (`feature/implement-scanner-backend`, `feature/plugin-design-doc`, `bump-python-3.13`) into `main`. All 31 tests pass.
 
 ### Added
 - Integration testing suite in `tests/test_integration.py` modeling SodaTry retail catalog discovery and tasting inventory scans.
