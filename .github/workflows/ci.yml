@@ -46,3 +46,11 @@ jobs:
       - name: Run unit and integration tests (pytest)
         run: |
           pytest -v
+
+      - name: Build package (sdist and wheel)
+        run: |
+          python -m build
+
+      - name: Check package with twine
+        run: |
+          twine check dist/*
