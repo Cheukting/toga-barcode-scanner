@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [0.1.2] - 2026-11-12
 
+### Changed
+- Expanded Python version support from 3.13 only to 3.11, 3.12, 3.13, 3.14, and 3.15, covering all currently maintained Python versions. Updated `pyproject.toml` `requires-python` and classifiers, and expanded the CI workflow matrix to test all supported Python versions.
+
 ### Added
 - Added MIT `LICENSE` file to the repository. The license was previously declared in `pyproject.toml` but the actual license text file was missing, which is required for proper PyPI distribution.
 - Added wheel build and twine validation steps to the CI workflow to ensure both source distributions and wheels are correctly built and pass PyPI standards before release.
