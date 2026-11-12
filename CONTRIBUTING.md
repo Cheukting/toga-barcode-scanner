@@ -8,7 +8,7 @@ Thank you for contributing to `toga-barcode-scanner`!
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-org/toga-barcode-scanner.git
+   git clone https://github.com/Cheukting/toga-barcode-scanner.git
    cd toga-barcode-scanner
    ```
 
