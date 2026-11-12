@@ -2,6 +2,9 @@
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
+[tool.setuptools.package-data]
+toga_barcode_scanner = ["LICENSE"]
+
 [project]
 name = "toga-barcode-scanner"
 version = "0.1.1"
