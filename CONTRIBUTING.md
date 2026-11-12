@@ -16,7 +16,8 @@ Thank you for contributing to `toga-barcode-scanner`!
    ```bash
    python -m venv .venv
    source .venv/bin/activate
-   pip install -e ".[dev]"
+   pip install -e "."
+   pip install --group dev
    ```
 
 3. **Run tests**:

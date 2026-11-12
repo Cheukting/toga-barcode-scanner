@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [Unreleased]
+
+### Changed
+- Consolidated dependencies: moved all development tools (`pytest`, `black`, `isort`, `mypy`, `build`, `twine`) from `[project.optional-dependencies]` to PEP 735 `[dependency-groups]`. Only runtime extras (`ios`) remain in `[project.optional-dependencies]`. Updated CI workflow and CONTRIBUTING.md to use `pip install --group dev` syntax.
+
 ## [0.1.0] - 2026-11-10
 
 ### Changed
