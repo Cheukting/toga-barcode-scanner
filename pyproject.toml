@@ -7,7 +7,7 @@ toga_barcode_scanner = ["LICENSE"]
 
 [project]
 name = "toga-barcode-scanner"
-version = "0.1.1"
+version = "0.1.2"
 description = "A native camera barcode and QR code scanner hardware plugin for the BeeWare Toga ecosystem."
 readme = "README.md"
 requires-python = ">=3.13"
