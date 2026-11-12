@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [Unreleased]
+## [0.1.2] - 2026-11-12
 
 ### Added
 - Added MIT `LICENSE` file to the repository. The license was previously declared in `pyproject.toml` but the actual license text file was missing, which is required for proper PyPI distribution.
